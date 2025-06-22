@@ -31,4 +31,4 @@ Subset of the [NIH Chest X-ray Dataset](https://www.nature.com/articles/s41597-0
 
 ## Conclusion
 
-On this small medical dataset, the baseline ImageNet-pretrained ResNet18 slightly outperformed the SimCLR-pretrained model. This highlights how supervised transfer learning may generalize better when self-supervised pretraining lacks diversity or volume.
+On this small medical dataset, the baseline ImageNet-pretrained ResNet18 slightly outperformed the SimCLR-pretrained model. This proves nothing there is a good chance that that the amount of images i used to train the simclr was probably not enough for it to learn good features to beat the ImageNet pretrained weights. I still believe simclr-pretrained model will outperform on choosing a dataset that is unique and is not already what imagenet has seen :)
