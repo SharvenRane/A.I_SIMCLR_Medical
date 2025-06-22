@@ -20,30 +20,6 @@ Subset of the [NIH Chest X-ray Dataset](https://www.nature.com/articles/s41597-0
   - "No Finding" → `0`
   - Anything else → `1`
 
-
-## Folder Structure
-
-A.I_SIMCLR_Medical/
-├── evaluate.py
-├── models/
-│   ├── resnet_encoder.py
-│   ├── projection_head.py
-│   └── simclr_model.pth
-├── outputs/
-│   ├── classifier_head.pth
-│   └── classifier_head_no_simclr.pth
-├── requirements.txt
-├── README.md
-├── train_classifier.py              # SimCLR-based classifier
-├── train_classifier_no_simclr.py    # Baseline classifier
-├── train_simclr.py                  # Pretrain SimCLR encoder
-└── utils/
-    ├── augmentations.py
-    ├── dataset_loader.py
-    └── loss.py
-
-
-
 ## Evaluation Results
 
 | Model                        | Avg Loss | Accuracy  |
