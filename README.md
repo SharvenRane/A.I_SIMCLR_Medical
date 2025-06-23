@@ -31,4 +31,4 @@ Subset of the [NIH Chest X-ray Dataset](https://www.nature.com/articles/s41597-0
 
 ## Conclusion
 
-On this small medical dataset, the baseline ImageNet-pretrained ResNet18 slightly outperformed the SimCLR-pretrained model. This proves nothing there is a good chance that that the amount of images i used to train the simclr was probably not enough for it to learn good features to beat the ImageNet pretrained weights. I still believe simclr-pretrained model will outperform on choosing a dataset that is unique and is not already what imagenet has seen :)
+On this small medical dataset, the baseline ResNet18 model pretrained on ImageNet slightly outperformed the SimCLR-pretrained version. While this result doesn’t prove much, it’s likely that the amount of data used to train SimCLR wasn’t sufficient for it to learn stronger representations than ImageNet features. I still believe a SimCLR-pretrained model can outperform ImageNet weights—especially on datasets with unique characteristics that go beyond what ImageNet has already captured.
